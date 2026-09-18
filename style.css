@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: rgb(131, 0, 0);
+    padding: 20px 0;      
+    text-align: center;
+    width: 100%;          
+    margin: 0;           
+}
+
+.menu a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menu-filmes {
+    display: flex;               
+    justify-content: center;   
+    gap: 20px;                  
+    margin: 20px 0;              
+}
+
+.menu-filmes a {
+    color: #8a1e1e;             
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menu a:hover {
+    color: #93c5fd;
+}
+
+#F1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #8a1e1e;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.pSubtitulo {
+    color: #8a1e1e;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.pSb {
+    color: #8a1e1e;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.imagem {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.imagem img {
+    width: 450px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    gap: 30px;
+}
+
+.conteudo img {
+    width: 300px;
+}
+
+
+.caixa {
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%; 
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+.conteudo-flex {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+
+
+.conteudo-flex img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.conteudo-flex p {
+    margin: 0;
+    text-align: left; 
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+footer {
+    background-color: rgb(131, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0 ;
+}
+
+.topo{
+    text-align: center;
+}
+
+.TituloVermelho {
+    color: #8a1e1e;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.img-centralizada {
+    display: block;
+    margin: 15px auto;   /* O "auto" nas laterais centraliza a imagem horizontalmente */
+    border-radius: 10px;
+}
+
+mark {
+    background-color: #8a1e1e; 
+    color: white;            
+    padding: 2px 6px;          
+    border-radius: 4px;   
+}
+
+.topo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.topo a {
+    color: #8a1e1e;
+    font-weight: bold;
+}
+
+.topo a:hover {
+    color: #b91c1c;
+    opacity: 0.8;
+}
