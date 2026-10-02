@@ -1,0 +1,634 @@
+/* ==========================================
+   CSS DA PÁGINA DE VENDAS
+   Arquivo: venda.css
+========================================== */
+
+
+/* ==========================================
+   CONFIGURAÇÕES GERAIS
+========================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+
+/* ==========================================
+   MENU
+========================================== */
+
+.menu {
+    background-color: rgb(131, 0, 0);
+
+    padding: 20px 0;
+
+    text-align: center;
+
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+
+    margin: 0 15px;
+
+    font-weight: bold;
+
+    text-decoration: underline;
+}
+
+.menu a:hover {
+    color: #93c5fd;
+}
+
+
+/* ==========================================
+   HERO
+========================================== */
+
+.hero {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 40px auto;
+
+    padding: 45px;
+
+    background-color: #e6e6e6;
+
+    border-radius: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 50px;
+}
+
+
+.hero-texto {
+    flex: 1;
+}
+
+
+.pequeno-titulo {
+    color: #8a1e1e;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+
+.hero h1 {
+    color: #8a1e1e;
+
+    font-size: 42px;
+
+    line-height: 1.1;
+
+    margin: 15px 0;
+}
+
+
+.hero p {
+    font-size: 19px;
+
+    line-height: 1.5;
+}
+
+
+.hero-imagem {
+    flex: 0 0 300px;
+
+    text-align: center;
+}
+
+
+.hero-imagem img {
+    width: 280px;
+
+    max-width: 100%;
+
+    height: auto;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ==========================================
+   BOTÕES
+========================================== */
+
+.botao {
+    display: inline-block;
+
+    background-color: #8a1e1e;
+
+    color: white;
+
+    padding: 15px 25px;
+
+    margin-top: 15px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+
+.botao:hover {
+    background-color: #b91c1c;
+
+    transform: scale(1.03);
+}
+
+
+/* ==========================================
+   SEÇÕES
+========================================== */
+
+.secao {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 60px auto;
+
+    text-align: center;
+}
+
+
+.secao h2,
+.sobre h2,
+.depoimentos h2,
+.faq h2 {
+    color: #8a1e1e;
+
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+
+.subtitulo {
+    font-size: 18px;
+
+    color: #555;
+
+    margin-bottom: 35px;
+}
+
+
+/* ==========================================
+   BENEFÍCIOS
+========================================== */
+
+.beneficios {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+
+.beneficio {
+    background-color: #f0f0f0;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    border-top: 5px solid #8a1e1e;
+}
+
+
+.icone {
+    font-size: 35px;
+}
+
+
+.beneficio h3 {
+    color: #8a1e1e;
+}
+
+
+.beneficio p {
+    line-height: 1.5;
+}
+
+
+/* ==========================================
+   SOBRE O PRODUTO
+========================================== */
+
+.sobre {
+    width: 90%;
+
+    max-width: 1000px;
+
+    margin: 60px auto;
+
+    padding: 40px;
+
+    background-color: #e6e6e6;
+
+    border-radius: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 40px;
+}
+
+
+.sobre-imagem {
+    flex: 0 0 280px;
+
+    text-align: center;
+}
+
+
+.sobre-imagem img {
+    width: 250px;
+
+    max-width: 100%;
+
+    height: auto;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.sobre-texto {
+    flex: 1;
+}
+
+
+.sobre-texto p {
+    font-size: 17px;
+
+    line-height: 1.6;
+}
+
+
+/* ==========================================
+   O QUE VOCÊ RECEBE
+========================================== */
+
+.lista-produto {
+    max-width: 750px;
+
+    margin: 30px auto;
+
+    text-align: left;
+}
+
+
+.item-produto {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    background-color: #f1f1f1;
+
+    margin: 12px 0;
+
+    padding: 15px 20px;
+
+    border-radius: 8px;
+}
+
+
+.item-produto span {
+    background-color: #8a1e1e;
+
+    color: white;
+
+    width: 30px;
+
+    height: 30px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: bold;
+
+    flex-shrink: 0;
+}
+
+
+.item-produto p {
+    margin: 0;
+}
+
+
+/* ==========================================
+   DEPOIMENTOS
+========================================== */
+
+.depoimentos {
+    background-color: #f3f3f3;
+
+    padding: 60px 5%;
+
+    text-align: center;
+}
+
+
+.cards-depoimentos {
+    max-width: 1100px;
+
+    margin: 35px auto 0;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+
+.depoimento {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.depoimento p {
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    font-style: italic;
+}
+
+
+.depoimento h3 {
+    color: #8a1e1e;
+
+    font-size: 16px;
+}
+
+
+/* ==========================================
+   PREÇO
+========================================== */
+
+.preco {
+    width: 90%;
+
+    max-width: 600px;
+
+    margin: 70px auto;
+
+    padding: 45px;
+
+    text-align: center;
+
+    background-color: #e6e6e6;
+
+    border-radius: 20px;
+
+    border: 3px solid #8a1e1e;
+}
+
+
+.preco h2 {
+    color: #8a1e1e;
+
+    font-size: 30px;
+}
+
+
+.preco-antigo {
+    color: #777;
+
+    text-decoration: line-through;
+
+    margin-bottom: 0;
+}
+
+
+.valor {
+    color: #8a1e1e;
+
+    font-size: 50px;
+
+    font-weight: bold;
+
+    margin: 5px 0;
+}
+
+
+.descricao-preco {
+    font-size: 16px;
+}
+
+
+.botao-compra {
+    font-size: 18px;
+
+    padding: 18px 35px;
+}
+
+
+.seguranca {
+    font-size: 12px;
+
+    color: #777;
+
+    margin-top: 20px;
+}
+
+
+/* ==========================================
+   FAQ
+========================================== */
+
+.faq {
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 60px auto;
+}
+
+
+.faq h2 {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+
+.pergunta {
+    background-color: #f0f0f0;
+
+    margin-bottom: 15px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    border-left: 5px solid #8a1e1e;
+}
+
+
+.pergunta h3 {
+    color: #8a1e1e;
+
+    margin-top: 0;
+}
+
+
+.pergunta p {
+    line-height: 1.5;
+
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   RODAPÉ
+========================================== */
+
+footer {
+    background-color: rgb(131, 0, 0);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 60px;
+}
+
+
+footer p {
+    margin: 5px;
+}
+
+
+/* ==========================================
+   RESPONSIVIDADE
+========================================== */
+
+@media (max-width: 800px) {
+
+    .hero {
+        flex-direction: column-reverse;
+
+        padding: 30px 20px;
+
+        text-align: center;
+    }
+
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+
+    .hero-imagem {
+        flex: auto;
+    }
+
+
+    .beneficios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .sobre {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 30px 20px;
+    }
+
+
+    .sobre-imagem {
+        flex: auto;
+    }
+
+
+    .cards-depoimentos {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .hero {
+        width: 94%;
+
+        margin: 25px auto;
+    }
+
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+
+    .hero p {
+        font-size: 16px;
+    }
+
+
+    .beneficios {
+        grid-template-columns: 1fr;
+    }
+
+
+    .secao h2,
+    .sobre h2,
+    .depoimentos h2,
+    .faq h2 {
+        font-size: 25px;
+    }
+
+
+    .preco {
+        padding: 30px 20px;
+    }
+
+
+    .valor {
+        font-size: 40px;
+    }
+}
